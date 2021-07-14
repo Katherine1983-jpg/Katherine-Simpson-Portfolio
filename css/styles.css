@@ -5,7 +5,7 @@
 }
 
 body {
-  margin: 80px auto;
+  margin: 100px auto;
 }
 
 h1,
@@ -101,4 +101,24 @@ p {
 
 .mt-5 {
   margin-top: 3rem !important;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
 }
