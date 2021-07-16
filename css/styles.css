@@ -103,6 +103,10 @@ p {
   margin-top: 3rem !important;
 }
 
+.row {
+  margin-bottom: 60px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
